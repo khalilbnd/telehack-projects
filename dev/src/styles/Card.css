@@ -40,3 +40,11 @@
     max-width: fit-content;
     padding: 10px 17px;
 }
+
+.cardContainer > .card > h1 {
+    color: #118143;
+    font-size: 3.75rem;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+}

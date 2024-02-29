@@ -1,8 +1,8 @@
-import "../styles/Landline.css";
-import Card from "./Card";
-import CardContainer from "./CardContainer";
-import ImageWrapper from "./ImageWrapper";
-import NavServices from "./NavServices";
+import "../../styles/Personal.css";
+import Card from "../Card";
+import CardContainer from "../CardContainer";
+import ImageWrapper from "../ImageWrapper";
+import NavServices from "../NavServices";
 
 export default function Internet() {
     return (
@@ -13,42 +13,42 @@ export default function Internet() {
                 <CardContainer>
                     <Card
                         title="Idoom FIXE"
-                        img="idoom.png"
+                        img="/idoom.png"
                         shadow="FIXE"
                         link="DISCOVER"
                         shadowStyle={{ left: "1.63rem" }}
                     />
                     <Card
                         title="Idoom FIXE"
-                        img="idoom.png"
+                        img="/idoom.png"
                         shadow="4G"
                         link="DISCOVER"
                         shadowStyle={{ top: "38%" }}
                     />
                     <Card
                         title="Idoom FIXE"
-                        img="idoom.png"
+                        img="/idoom.png"
                         shadow="FIXE"
                         link="DISCOVER"
                         shadowStyle={{ left: "1.63rem" }}
                     />
                     <Card
                         title="Idoom FIXE"
-                        img="idoom.png"
+                        img="/idoom.png"
                         shadow="4G"
                         link="DISCOVER"
                         shadowStyle={{ top: "38%" }}
                     />
                     <Card
                         title="Idoom 4G"
-                        img="idoom.png"
+                        img="/idoom.png"
                         shadow="4G"
                         link="DISCOVER"
                     />
                 </CardContainer>
             </section>
             <section>
-                <ImageWrapper img="img2.png" alt="Image " />
+                <ImageWrapper img="/img2.png" alt="Image " />
             </section>
         </article>
     );

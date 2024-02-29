@@ -1,8 +1,8 @@
-import "../styles/Landline.css";
-import Card from "./Card";
-import CardContainer from "./CardContainer";
-import ImageWrapper from "./ImageWrapper";
-import NavServices from "./NavServices";
+import "../../styles/Personal.css";
+import Card from "../Card";
+import CardContainer from "../CardContainer";
+import ImageWrapper from "../ImageWrapper";
+import NavServices from "../NavServices";
 
 export default function Landline() {
     return (
@@ -13,7 +13,7 @@ export default function Landline() {
                 <CardContainer>
                     <Card
                         title="Idoom FIXE"
-                        img="idoom.png"
+                        img="/idoom.png"
                         shadow="FIXE"
                         link="DISCOVER"
                         shadowStyle={{ left: "1.63rem" }}
@@ -21,7 +21,7 @@ export default function Landline() {
                 </CardContainer>
             </section>
             <section>
-                <ImageWrapper img="img1.jpg" alt="landline" />
+                <ImageWrapper img="/img1.jpg" alt="landline" />
             </section>
         </article>
     );

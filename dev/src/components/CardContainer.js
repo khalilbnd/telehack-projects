@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import "../styles/CardContainer.css";
 
-export default function CardContainer({ children }) {
+export default function CardContainer({ children, addPagination = true }) {
     const container = useRef(null);
     const [current, setCurrent] = useState(0);
     const pagination = Math.ceil(children.length / 2);
@@ -11,7 +11,7 @@ export default function CardContainer({ children }) {
             <div className="cardContainer" ref={container}>
                 {children}
             </div>
-            {children.length > 2 && (
+            {children.length > 2 && addPagination && (
                 <>
                     <div
                         onClick={() => {
@@ -31,7 +31,7 @@ export default function CardContainer({ children }) {
                     ></div>
                 </>
             )}
-            {pagination >= 1 && (
+            {pagination >= 1 && addPagination && (
                 <div className="pagination">
                     {[...Array(pagination)].map((_, index) => (
                         <div
