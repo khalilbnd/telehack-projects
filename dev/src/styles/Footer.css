@@ -5,7 +5,7 @@ footer {
 footer section:nth-child(2) {
     position: absolute;
     z-index: 100;
-    top: 20%;
+    top: 33%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
