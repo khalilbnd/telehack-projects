@@ -22,7 +22,7 @@ export default function NavServices() {
                 Internet
             </Link>
             <Link
-                to={"/" + pathname.split("/")[1] + "Services"}
+                to={"/" + pathname.split("/")[1] + "/Services"}
                 className={`btn ${
                     pathname.includes("/Services") ? "active" : " "
                 }`}
