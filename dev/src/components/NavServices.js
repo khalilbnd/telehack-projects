@@ -6,20 +6,26 @@ export default function NavServices() {
     return (
         <div className="btnContainer">
             <Link
-                to="/Landline"
-                className={`btn ${pathname === "/Landline" ? "active" : " "}`}
+                to={"/" + pathname.split("/")[1] + "/Landline"}
+                className={`btn ${
+                    pathname.includes("/Landline") ? "active" : " "
+                }`}
             >
                 Landline
             </Link>
             <Link
-                to="/Internet"
-                className={`btn ${pathname === "/Internet" ? "active" : " "}`}
+                to={"/" + pathname.split("/")[1] + "/Internet"}
+                className={`btn ${
+                    pathname.includes("/Internet") ? "active" : " "
+                }`}
             >
                 Internet
             </Link>
             <Link
-                to="/Services"
-                className={`btn ${pathname === "/Services" ? "active" : " "}`}
+                to={"/" + pathname.split("/")[1] + "Services"}
+                className={`btn ${
+                    pathname.includes("/Services") ? "active" : " "
+                }`}
             >
                 Services
             </Link>
