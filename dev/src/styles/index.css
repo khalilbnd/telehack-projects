@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #478df5;
+    --bg-color: #f8f8f8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+    shape-margin: 1rem;
+    font-style: italic;
+}
+
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    border-radius: 13px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-style: italic;
+    font-weight: 700;
+    display: flex;
+    padding: 0.625rem 4.375rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.btn.active {
+    background-color: var(--primary-color);
+    color: #fff;
+}

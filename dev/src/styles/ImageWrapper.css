@@ -1,0 +1,22 @@
+.imgWrapper {
+    position: relative;
+    border-radius: 40px 0px 40px 40px;
+    padding: 0 0 3.5rem 3.5rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+}
+
+.imgWrapper img {
+    border-radius: 40px 0px 40px 40px;
+    max-width: 100%;
+}
+
+.imgWrapper svg {
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 6rem;
+    left: 0;
+    top: -1.5rem;
+    position: absolute;
+}

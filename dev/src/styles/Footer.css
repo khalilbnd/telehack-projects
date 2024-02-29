@@ -1,0 +1,7 @@
+footer {
+    position: relative;
+}
+
+footer > img {
+    position: absolute;
+}
