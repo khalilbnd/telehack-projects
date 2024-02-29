@@ -1,0 +1,26 @@
+[
+    {
+         "title":"10 Mega",
+         "type":"ADSL",
+         "price":"1600",
+         "advantage":["benefit form 10 mega of internet"]
+     },
+     {
+         "title":"15 Mega",
+         "type":"ADSL",
+         "price":"1999",
+         "advantage":["benefit form 15 mega of internet"]
+     },
+     {
+         "title":"20 Mega",
+         "type":"ADSL",
+         "price":"2599",
+         "advantage":["benefit form 20 mega of internet"]
+     },
+     {
+         "title":"50 Mega",
+         "type":"ADSL",
+         "price":"2799",
+         "advantage":["benefit form 50 mega of internet"]
+     }
+ ]
