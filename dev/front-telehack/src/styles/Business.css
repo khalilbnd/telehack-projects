@@ -1,4 +1,4 @@
-.offerContainer {
+#bus .offerContainer {
     display: flex;
     flex-direction: column;
     gap: 7rem;
@@ -7,18 +7,18 @@
     padding: 0 3rem;
 }
 
-.cardContainer {
+#bus .cardContainer {
     flex-wrap: wrap;
     overflow: auto;
     justify-content: center;
 }
 
-.cardContainer > .card {
+#bus .cardContainer > .card {
     width: 23.375rem;
     height: 27.75rem;
 }
 
-.heroBusiness {
+#bus .heroBusiness {
     padding: 4rem 0 0 0;
     margin-bottom: 5rem;
     display: grid;
@@ -26,7 +26,7 @@
     position: relative;
 }
 
-.heroBusiness > h1 {
+#bus .heroBusiness > h1 {
     font-size: 4rem;
     padding: 2rem 2rem 2rem 4rem;
     background: var(--bg-color);
@@ -49,7 +49,7 @@
     border-radius: 50px;
 } */
 
-.heroBusiness > p {
+#bus .heroBusiness > p {
     font-size: 48px;
     font-weight: 400;
     position: relative;
@@ -60,16 +60,16 @@
     border-radius: 0 0 0 50px;
 }
 
-.heroBusiness > .banner {
+#bus .heroBusiness > .banner {
     background-color: var(--primary-color);
     position: absolute;
     width: 100%;
     height: 4rem;
-    z-index: 100;
+    z-index: 10;
     border-radius: 0 0 0 30px;
 }
 
-.banner-2 {
+#bus .banner-2 {
     background-color: var(--primary-color);
     position: absolute;
     width: 10rem;
